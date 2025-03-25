@@ -25,7 +25,8 @@ if player_options == computer_options:
 elif (player_options == 1 and computer_options == 3) or \
        (player_options == 2 and computer_options == 1) or \
        (player_options == 3 and computer_options == 2) or \
-       (player_options == 4 and computer_options == 1):
+       (player_options == 4 and computer_options == 1) or \
+       (player_options == 5 and computer_options == 4)
    print("The player won!")
 else:
    print("The computer won!")
